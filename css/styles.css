@@ -1,0 +1,259 @@
+#navbar{
+  position: relative;
+  z-index: 2;
+}
+
+#body {
+  padding-top: 5%;
+padding-left: 10%;
+padding-right: 10%;
+  background-color: #3D7EA6;
+}
+
+#tawaran h1 , #portofolio h1 , #pricing h1 , #contact h1{
+color: white;
+text-align: center;
+font-size: 2rem;
+padding-bottom: 7%;
+}
+
+.kanan{
+  padding-top: 17%;
+}
+
+
+#header{
+color: white;
+padding-bottom: 10%;
+}
+
+#header h5{
+  font-weight: lighter;
+}
+
+.jinx-1{
+position: relative;
+  z-index: 1;
+  width: 500px;
+}
+
+.cloud-right {
+  position: absolute;
+  right: 10px;
+  width: 110px;
+}
+
+
+.cloud-left {
+  position: absolute;
+  left: 15px;
+  width: 110px;
+  margin-top: 30px;
+}
+/* : tawaran */
+
+#tawaran{
+  padding-left: 10%;
+  padding-right: 10%;
+  color: white;
+  text-align: center;
+  padding-bottom: 20%;
+}
+#tawaran h4{
+  font-size: 1rem;
+}
+.icon-tawaran {
+  width: 60px;
+  padding-bottom: 13px;
+}
+
+
+
+
+
+/* : portofolio */
+
+#portofolio{
+  color: white;
+}
+
+#portofolio .row{
+  padding-bottom: 100px;
+}
+
+
+#portofolio p{
+  font-size: 12px;
+}
+
+#portofolio h3{
+  font-size: 23px;
+}
+
+.company-text {
+  text-align: right;
+  align-content: flex-end;
+}
+
+
+/* : pricing */
+
+#pricing{
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  color: white;
+  padding-bottom: 23%;
+}
+
+#bg-price {
+  background-color: #3D7EA6;
+  border-color: #ffff;
+}
+
+
+
+/* contact */
+
+#contact{
+  padding-left: 30%;
+  padding-right: 30%;
+  text-align: center;
+  padding-bottom: 30%;
+}
+
+/* : credit */
+#credit{
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  padding-bottom: 5%;
+}
+
+
+/* : karakter */
+
+.jinx-2{
+  position: absolute;
+  width: 200px;
+  top: 950px;
+}
+
+.jinx-3{
+  position: absolute;
+  width: 250px;
+  right: 200px;
+  top: 2400px;
+}
+
+/* : atribut */
+.atas{
+  position: absolute;
+top: 0;
+right: 0;
+z-index: 0
+}
+
+/* : media query */
+@media (max-width: 575.98px) {
+#tawaran h1 , #portofolio h1 , #pricing h1 , #contact h1{
+font-size: 1.7rem;
+}
+
+.kanan{
+  padding-top: 17%;
+}
+
+
+#header{
+  padding-top: 30%;
+color: white;
+padding-bottom: 80%;
+text-align: right;
+}
+
+#header h5{
+  font-weight: lighter;
+font-size: 16px;
+}
+
+#header h1{
+  font-size: 20px;
+}
+
+#header h3{
+  font-size: 15px;
+}
+
+.jinx-1{
+  width: 230px;
+}
+
+.cloud-right {
+  position: absolute;
+  top: 600px;
+  right: 40px;
+  width: 110px;
+}
+
+
+.cloud-left {
+  position: absolute;
+  top: 700px;
+  left: 15px;
+  width: 110px;
+  margin-top: 30px;
+}
+
+#tawaran h4{
+  font-size: 0.7rem;
+}
+
+#tawaran{
+  padding-bottom: 65%;
+}
+
+#portofolio h3{
+  font-size: 17px;
+}
+#portofolio p{
+  font-size: 12px;
+}
+
+#pricing p{
+  font-size: 12px;
+}
+#pricing h5{
+  font-size: 15px;
+}
+
+#contact{
+  padding-top: 50%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 50%;
+}
+
+#credit{
+  font-size: 12px;
+}
+
+.jinx-2{
+  position: absolute;
+  width: 200px;
+  top: 930px;
+  left: 0
+}
+
+.jinx-3{
+  position: absolute;
+  width: 200px;
+  right: 0;
+  top: 2650px;
+}
+
+.atas{
+  width: 400px;
+}
+
+}
