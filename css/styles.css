@@ -155,7 +155,7 @@ z-index: 0
 }
 
 /* : media query */
-@media (max-width: 575.98px) {
+@media (max-width: 360px) {
 #tawaran h1 , #portofolio h1 , #pricing h1 , #contact h1{
 font-size: 1.7rem;
 }
