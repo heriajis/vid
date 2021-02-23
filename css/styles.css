@@ -159,6 +159,8 @@ z-index: 0
 #tawaran h1 , #portofolio h1 , #pricing h1 , #contact h1{
 font-size: 1.7rem;
 }
+  
+  
 
 .kanan{
   padding-top: 17%;
@@ -166,6 +168,8 @@ font-size: 1.7rem;
 
 
 #header{
+  padding-left: 5%;
+padding-right: 5%;
   padding-top: 30%;
 color: white;
 padding-bottom: 80%;
@@ -186,7 +190,7 @@ font-size: 16px;
 }
 
 .jinx-1{
-  width: 230px;
+  width: 220px;
 }
 
 .cloud-right {
